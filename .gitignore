@@ -1,0 +1,31 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-config-local.php
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependências, cache e arquivos temporários
+node_modules/
+vendor/
+.cache/
+*.log
+*.tmp
+*.swp
+*.swo
+__pycache__/
+*.pyc
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Exportações de banco podem conter dados privados
+*.sql
+*.sql.gz
